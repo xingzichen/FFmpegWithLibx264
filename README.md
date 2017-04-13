@@ -16,6 +16,6 @@ Test with :
 ## How to build
 
 1. run build_x264.sh in the folder x264.
-2. run build_ffmpeg.sh in the folder ffmpeg.
-
+2. git checkout n3.2.4 for ffmpeg.
+3. run build_ffmpeg.sh in the folder ffmpeg.
 

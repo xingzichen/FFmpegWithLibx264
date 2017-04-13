@@ -149,6 +149,7 @@ do
 cd $CWD
 echo "copy $SCRATCH/$ARCH/config.h to $THIN/$ARCH/$include"
 cp -rf $SCRATCH/$ARCH/config.h $THIN/$ARCH/$include || exit 1
+cp -rf $FAT ../ffmpeg/fat-x264
 done
 
 echo "building success!"
